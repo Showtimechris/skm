@@ -182,7 +182,7 @@
 
  .sage-industry {
    margin-top: 10px;
-   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("images/stock/computer.jpg");
+   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("stock/computer.jpg");
    background-position: center;
    padding-bottom: 10px;
  }
