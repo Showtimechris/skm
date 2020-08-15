@@ -3,7 +3,9 @@
 h2 {
   font-size: 2rem;
 }
-.navbar-toggler-icon {
+body {
+  overflow-x: hidden;
+
 }
 .nav-item {
   font-size: 20px;
