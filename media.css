@@ -5,6 +5,9 @@ h2 {
 }
 .navbar-toggler-icon {
 }
+.nav-item {
+  font-size: 20px;
+}
 
 .header-main {
   font-size: 3rem;
@@ -13,7 +16,7 @@ h2 {
   right: 6%;
 }
 .presentation-intro {
-  padding-bottom: 25%;
+  padding-bottom: 40%;
 }
 .notice {
   padding-bottom: 60px;
@@ -29,7 +32,6 @@ h2 {
   left: 10%;
 
 }
-
 .industry-subheader {
   width: 100%;
   margin-left: 0;
@@ -58,7 +60,7 @@ h2 {
 .product-header {
   position: relative;
   width: 400px;
-  right: 10%;
+  right: 9%;
   text-align: left;
 
 }
@@ -67,7 +69,7 @@ h2 {
 }
 .box-shots {
   width: 120px;
-  height: 260px;
+  height: 220px;
 }
 .feature-item{
   margin-top: 10px;
