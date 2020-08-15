@@ -1,5 +1,5 @@
 
-@media screen and (max-width: 575px) {
+@media screen and (min-width: 414px) {
 h2 {
   font-size: 2.5rem;
 }
