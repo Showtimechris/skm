@@ -113,6 +113,7 @@
  /* Features Section ****** */
  #features-section {
    margin-top: 30px;
+   background-color: #10375c;
  }
 
  .feature-item {}
@@ -129,7 +130,7 @@
 
  .feature-header {
    font-size: 1.2rem;
-   color: #6b6b6b;
+   color: #fff;
    text-align: center;
    width: 300px;
  }
