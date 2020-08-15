@@ -1,7 +1,4 @@
-
- body {}
-
- .top-margin {
+  .top-margin {
    position: relative;
    top: 5px;
    margin-top: 20px;
