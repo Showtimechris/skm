@@ -57,7 +57,9 @@
    background-color: #02569c;
    padding-bottom: 20px;
  }
-
+.btn-contact-us {
+  margin-left: 20px;
+}
  .btn-success {
    position: relative;
    left: 20%;

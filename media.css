@@ -1,0 +1,64 @@
+
+@media screen and (max-width: 575px) {
+h2 {
+  font-size: 2.5rem;
+}
+.header-main {
+  font-size: 4rem;
+  width: 80%;
+  left: 5%;
+  padding-bottom: 4%;
+}
+.presentation-intro {
+  padding-bottom: 15%;
+}
+.notice {
+  padding-bottom: 60px;
+}
+.notice-sub-header {
+  width: 80%;
+  font-size: 3rem;
+  left: 15%;
+}
+.presentation-img {
+left: 20%;
+}
+
+.industry-subheader {
+  width: 100%;
+
+}
+.btn-success {
+  left: 15%;
+}
+.btn-contact-us {
+  margin-left: 40px;
+
+}
+.notice-sub-header-text {
+  font-size: 20px;
+  left: 15%;
+  width: 80%;
+}
+.Product-Title {
+  padding-bottom: 6%;
+}
+.product-header {
+  text-align: center;
+}
+.notice-screenshot{
+  margin-top: 10%;;
+}
+.box-shots {
+  width: 160px;
+  height: 300px;
+}
+.feature-item{
+  margin-top: 10px;
+}
+.feature-header {
+  margin-right: 5%;
+  font-size: 14px;
+  width: 250px;
+  }
+}
