@@ -220,5 +220,7 @@
  }
 
  .pointer-check {
-   width: 50px;
+   width: 30px;
+   height: 30px;
+   margin-top: 10px;
  }
