@@ -3,8 +3,14 @@
    top: 5px;
    margin-top: 20px;
  }
- 
-
+ body{
+   overflow-x: hidden!important;
+   position: relative;
+ }
+#Wrapper {
+  overflow-x: hidden;
+  
+}
  hr {
    margin: 30px auto;
    border-top: none;
@@ -218,3 +224,25 @@
    height: 30px;
    margin-top: 10px;
  }
+/* Tab Bar ********/
+.sub-heading {
+  margin-top: 3%;
+width: 50%;
+}
+.text {
+  float: left;
+  line-height: 1.5;
+  margin-top: 2%;
+width: 60%;
+font-size: 20px;
+}
+.tab-img {
+  position: relative;
+  width: 400px;
+  height: 300px;
+}
+.Sidebar{
+  margin-top: 30px;
+}
+.sidebar-content {
+}

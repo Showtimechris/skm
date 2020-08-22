@@ -4,7 +4,7 @@ h2 {
   font-size: 2rem;
 }
 body {
-  overflow-x: hidden;
+  overflow-x: hidden!important;
 
 }
 .nav-item {
