@@ -1,88 +1,20 @@
-
-@media screen and (max-width: 414px) {
-h2 {
-  font-size: 2rem;
-}
-body {
-  overflow-x: hidden!important;
-
-}
-.nav-item {
-  font-size: 20px;
-}
-
-.header-main {
-  font-size: 3rem;
-  width: 100%;
-  padding-bottom: 4%;
-  right: 6%;
-}
-.presentation-intro {
-  padding-bottom: 40%;
-}
-.notice {
-  padding-bottom: 60px;
-}
-.notice-sub-header {
-  width: 80%;
-  font-size: 3rem;
-  left: 15%;
-}
-.presentation-img {
-  width: 300px;
-  height: 150px;
-  left: 10%;
-
-}
-.industry-subheader {
-  width: 100%;
-  margin-left: 0;
-
-}
-.pointer{
-  margin: 5px 0 20px 0 ;
-  position: relative;
-  right: 5%;
-}
-.btn-success {
-  left: 15%;
-}
-.btn-contact-us {
-  margin-left: 80px;
-
-}
-.notice-sub-header-text {
-  font-size: 20px;
-  left: 15%;
-  width: 80%;
-}
-.Product-Title {
-  padding-bottom: 12%;
-}
-.product-header {
-  position: relative;
-  width: 400px;
-  right: 9%;
-  text-align: left;
-
-}
-.notice-screenshot{
-  margin-top: 15%;
-}
-.box-shots {
-  width: 120px;
-  height: 220px;
-}
-.feature-item{
-  margin-top: 10px;
-}
-.feature-img {
-  width: 50px;
-  height: 50px;
-}
-.feature-header {
-  margin-right: 0;
-  font-size: 14px;
-  width: 200px;
+@media screen and (max-width: 750px) {
+  .header-img {
+    height: 500px;
+    width: 600px;
   }
+
+  .sub-img {
+    width: 500px;
+  }
+.program-features {
+  text-align: center;
 }
+
+
+
+
+
+
+
+  }

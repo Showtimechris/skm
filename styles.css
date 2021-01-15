@@ -1,248 +1,190 @@
-  .top-margin {
-   position: relative;
-   top: 5px;
-   margin-top: 20px;
- }
- body{
-   overflow-x: hidden!important;
-   position: relative;
- }
-#Wrapper {
+* {
+  font-family: 'Roboto', sans-serif;
   overflow-x: hidden;
-  
 }
- hr {
-   margin: 30px auto;
-   border-top: none;
-   border-bottom: 4px dotted;
-   width: 60px;
-   color: #737373;
- }
 
- .header-line {
-   border: 2px solid white;
-   width: 80px;
- }
-
- /* Navigation Styles */
- #navigation-menu {
-   padding: 0 7%;
- }
-
- .logo-img {
-   width: 350px;
-   height: 100px;
- }
-
- .nav-item {
-   margin-right: 25px;
-   font-size: 18px;
- }
-
- .nav-item a:hover {
-   border-bottom: 5px solid #1df59b;
- }
-
- .presentation-intro {
-   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("images/business-graphic.jpg");
-   padding-bottom: 10%;
-   /*linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7))*/
- }
-
- .presentation-img {
-   position: relative;
-   top: 30px;
-   left: 35%;
-   width: 400px;
-   height: 200px;
- }
-
- .notice {
-   background-color: #02569c;
-   padding-bottom: 20px;
- }
-.btn-contact-us {
-  margin-left: 20px;
+br {
+  padding-bottom: 20px;
 }
- .btn-success {
-   position: relative;
-   left: 20%;
-   top: 20px;
-   margin-top: 30px;
- }
 
- .notice-screenshot {
-   position: relative;
-   width: 100%;
-   transform: rotate(5deg);
- }
-
- .notice-sub-header {
-   position: relative;
-   width: 60%;
-   top: 10%;
-   left: 10%;
-   color: white;
-   font-size: 2.5rem;
-   margin-bottom: 15px;
-   padding-top: 10px;
- }
-
- .notice-sub-header-text {
-   position: relative;
-   color: white;
-   width: 50%;
-   left: 10%;
-   top: 10%;
-   font-size: 16px;
- }
-
- .header-main {
-   position: relative;
-   margin-left: 12%;
-   top: 60px;
-   color: #0ce89b;
-   width: 50%;
-   line-height: 1.5;
-   font-weight: 600;
-   font-size: 3.5rem;
- }
-
- /* HORIZONATAL RULE ******/
- .line-space {
-   border: 4px dotted #a6a6a6;
-   border-bottom: none;
-   width: 150px;
-   margin-top: 30px;
- }
-
- /* Features Section ****** */
- #features-section {
-   margin-top: 30px;
-   background-color: #10375c;
- }
-
- .feature-item {}
-
- .feature-img {
-   width: 75px;
-   height: 75px;
-   position: relative;
-   left: 37%;
-   margin-left: auto;
-   margin-bottom: 10px;
-   color: #00ffff;
- }
-
- .feature-header {
-   font-size: 1.2rem;
-   color: #fff;
-   text-align: center;
-   width: 300px;
- }
-
- .feature-text {
-   font-size: 1rem;
-   text-align: center;
-   display: none;
- }
-
- /* Product Shots ******** */
- .Product-Title {
-   background-color: #02569c;
- }
-
- .product-header {
-   position: relative;
-   line-height: 1.25;
-   margin: 30px 0 0 25px;
-   width: 450px;
-   color: white;
- }
-
- .Product-Shots {}
-
- .box-shots {
-   position: relative;
-   width: 200px;
-   height: 300px;
- }
-
- .pro-header {
-   color: #26b3f0;
- }
-
- .premium-header {
-   color: #e8665a;
- }
-
- .quantum-header {
-   color: #a668e3;
- }
-
- .sage-industry {
-   margin-top: 10px;
-   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("stock/computer.jpg");
-   background-position: center;
-   padding-bottom: 10px;
- }
-
- .sage-accent {
-   color: green;
- }
-
- .industry-header {
-   color: white;
-   text-align: center;
-   font-size: 3rem;
-   margin: auto 0 20px auto;
- }
-
- .industry-subheader {
-   margin: auto auto 0 25px;
-   color: white;
-   font-size: 1.5rem;
-   width: 620px;
-   line-height: 1.5;
-   text-align: left;
- }
-
- .pointer {
-   display: inline-flex;
-   margin: 40px 0 0 50px;
- }
-
- .pointer-item {
-   margin: 5px 0 0 5px;
-   color: white;
-   list-style: none;
-   font-size: 1.5rem;
- }
-
- .pointer-check {
-   width: 30px;
-   height: 30px;
-   margin-top: 10px;
- }
-/* Tab Bar ********/
-.sub-heading {
-  margin-top: 3%;
-width: 50%;
+p {
+  width: 600px;
 }
-.text {
-  float: left;
-  line-height: 1.5;
-  margin-top: 2%;
-width: 60%;
-font-size: 20px;
+
+/* Navigation */
+.main-logo {
+  width: 250px;
+  height: 80px;
 }
-.tab-img {
+
+.nav-item {
+  margin-left: 30px;
+}
+
+.nav-link {
+  font-size: 18px;
+  color: #007965 !important;
+}
+
+/* Heading */
+.intro-1 {
+  background: rgb(16, 255, 238);
+  background: linear-gradient(190deg, rgba(16, 255, 238, 1) 0%, rgba(4, 139, 62, 1) 35%, rgba(6, 164, 158, 1) 100%);
+  padding-bottom: 100px;
+}
+
+.center-intro {
   position: relative;
-  width: 400px;
+  left: 25px;
+  padding: 100px 0 0 0;
+}
+
+.title {
+  color: white;
+  width: 600px;
+  font-weight: 600;
+  font-size: 3.5rem;
+  padding-bottom: 20px;
+}
+
+.title-sub {
+  color: #E8E8E8;
+  width: 600px;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+.header-img {
+  position: relative;
+  padding-right: 50px;
+  padding-top: 80px;
+  height: 500px;
+  width: 740px;
+}
+
+/* Buttons */
+.action-button {
+  position: relative;
+  top: 40px;
+}
+
+.center1 {
+  position: relative;
+  left: 500px;
+}
+
+.spacer {
+  padding: 40px 0 40px 0;
+}
+
+.line {
+  border-bottom: 4px dotted;
+  width: 300px;
+}
+
+/* Client Area */
+.logo-section {
+  background-color: white;
+  padding: 20px 0 20px 0;
+}
+
+.logo-client {
+  margin-left: 75px;
+  width: 100px;
+  height: 40px;
+}
+
+.sub-heading {
+  color: rgba(90, 249, 23, 1.0);
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.accounting-package {
+  color: grey;
+}
+
+.graphic-2 {
+  width: 600px;
   height: 300px;
 }
-.Sidebar{
-  margin-top: 30px;
+
+.check {
+  margin-right: 10px;
+  width: 20px;
+  height: 20px;
 }
-.sidebar-content {
+
+/* Card */
+.featured-card-body {
+  background: linear-gradient(157deg, rgba(239, 240, 245, 1) 0%, rgba(0, 179, 249, 0.8309698879551821) 51%, rgba(255, 255, 255, 1) 100%);
+}
+
+/* Box IMages */
+.box-shot {
+  position: relative;
+  width: 150px;
+  height: 180px;
+}
+
+.description {}
+
+.sub-img {
+  width: 700px;
+}
+
+#market {
+  background-image: url("images/circle1.png");
+  padding: 60px 0 0 0;
+}
+
+.market-head {
+  font-size: 30px;
+  color: rgba(4, 139, 62, 1);
+  margin-bottom: 30px;
+}
+
+.highlight {
+  font-weight: 600;
+  color: #52de97;
+}
+
+.market-text {
+  width: 500px;
+  color: #374045;
+}
+
+.program-features {
+  background: rgb(16, 255, 238);
+  background: linear-gradient(190deg, rgba(16, 255, 238, 1) 0%, rgba(45, 217, 255, 1) 35%, rgba(49, 180, 65, 1) 100%);
+  margin: 40px 0 0 0;
+  padding-bottom: 40px;
+}
+
+.width-adj {
+  width: 90%;
+}
+
+.features-snippet {
+  padding: 20px 0 0 0;
+  height: 200px;
+  width: 200px;
+}
+
+.features-topic {
+  font-size: 20px;
+  color: white;
+}
+
+.spacer-1 {
+  padding-top: 40px;
+}
+
+.statement-container {}
+
+.statement {
+  color: grey;
+  font-size: 20px;
+  text-align: center;
+  width: 100%;
 }
